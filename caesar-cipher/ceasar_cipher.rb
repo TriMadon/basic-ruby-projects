@@ -12,4 +12,4 @@ def shift_letter(letter, shift)
   ((letter.ord + shift - base_ord) % 26 + base_ord).chr
 end
 
-puts caesar_cipher('What a string!', -15) # => "Bmfy f xywnsl!"
+puts caesar_cipher('What a string!', 5) # => "Bmfy f xywnsl!"
